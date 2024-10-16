@@ -4,7 +4,6 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt -y update && \
     apt -y install git \
-    apt -y install zip \ 
     python3 \
     python3-pip \
     wget \
