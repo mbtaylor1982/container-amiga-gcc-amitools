@@ -1,4 +1,4 @@
-FROM stefanreinauer/amiga-gcc
+FROM stefanreinauer/amiga-gcc:latest
 
 RUN apt-get -y update && \
     apt-get -y install zip
